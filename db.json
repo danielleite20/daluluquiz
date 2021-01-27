@@ -1,28 +1,30 @@
 {    
     "bg": "https://i.ibb.co/Nscqr0p/logoquiz.jpg",
-    "title": "Quiz Dalulu",
-    "description": "Teste os seus conhecimentos sobre futebol e vamos ver qual o seu grau de conhecimento sobre o esporte",
+    "title": "Hyper Ball Quiz ",
+    "description": "Teste os seus conhecimentos sobre futebol e vamos ver qual o seu grau de conhecimento sobre o esporte! ",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/taca-copa-do-mundo-2022-qatar_1.jpg?eBsPCuTCVk7B5oEhIkoJ.etf5PO.iBgC",
         "title": "Qual seleção possui mais titulos de copa do mundo ?",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Alemanha",
+          "Italia",
+          "Brasil",
+          "França"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://bolavip.com/__export/1603466140614/sites/bolavip/img/2020/10/23/sorteio-libertadores_3.jpg_423682103.jpg",
         "title": "Em que ano o Flamengo conquistou a Libertadores pela ultima vez ?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 4,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "2009",
+           "1981",
+           "1993",
+           "2019"
         ]
       }
     ],

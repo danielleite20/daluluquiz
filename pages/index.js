@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
@@ -9,6 +10,8 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -17,7 +20,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 //   background-position: center;
 // `;
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -35,13 +38,13 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>DaluluQuiz - Modelo Futebol</title>
+        <title>{db.title}</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Show do Futebol </h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
             <form onSubmit={function (infosDoEvento) {
@@ -51,17 +54,13 @@ export default function Home() {
             }}
             >
               <input
-                onChange={function (infosDoEvento) {
-                  console.log(infosDoEvento.target.value);
-                  // State
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
-                placeholder="Informe seu nome"
+                name="nomeDoUsuario"
+                onChange={(infosdoEvento) => setName(infosdoEvento.target.value)}
+                placeholder="Informe seu Nome"
+                value={name}
               />
               <button type="submit" disabled={name.length === 0}>
-                 Jogar : 
-                {name}
+                 {`Jogar : ${name}`}
               </button>
             </form>
           </Widget.Content>

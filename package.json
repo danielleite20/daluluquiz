@@ -9,7 +9,7 @@
     "lint": "eslint ./ --fix"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^10.0.5",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",

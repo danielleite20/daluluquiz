@@ -1,4 +1,4 @@
-// src/components/QuizBackground/index.js
+// eslint-disable-next-line
 import styled from 'styled-components';
 
 const QuizBackground = styled.div`
