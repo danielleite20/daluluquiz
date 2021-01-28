@@ -7,7 +7,7 @@
         "image": "https://files.nsctotal.com.br/s3fs-public/graphql-upload-files/taca-copa-do-mundo-2022-qatar_1.jpg?eBsPCuTCVk7B5oEhIkoJ.etf5PO.iBgC",
         "title": "Qual seleção possui mais titulos de copa do mundo ?",
         "description": "Essa é pra aquecer",
-        "answer": 3,
+        "answer": 2,
         "alternatives": [
           "Alemanha",
           "Italia",
@@ -19,7 +19,7 @@
         "image": "https://bolavip.com/__export/1603466140614/sites/bolavip/img/2020/10/23/sorteio-libertadores_3.jpg_423682103.jpg",
         "title": "Em que ano o Flamengo conquistou a Libertadores pela ultima vez ?",
         "description": "Faz tempo em haha",
-        "answer": 4,
+        "answer": 3,
         "alternatives": [
            "2009",
            "1981",

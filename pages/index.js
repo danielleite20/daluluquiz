@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
@@ -47,21 +46,22 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
+            <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
+              <Input
                 name="nomeDoUsuario"
-                onChange={(infosdoEvento) => setName(infosdoEvento.target.value)}
-                placeholder="Informe seu Nome"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Diz ai seu nome"
                 value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                 {`Jogar : ${name}`}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
