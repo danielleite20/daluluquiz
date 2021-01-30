@@ -26,10 +26,50 @@
            "1993",
            "2019"
         ]
+      },
+      {
+        "image": "https://tvassinatura.com/wp-content/uploads/2018/06/assistir-a-champions-league-ao-vivo.jpg",
+        "title": "Qual o clube com mais títulos de Uefa Champions League ?",
+        "description": "GIGANTE",
+        "answer": 3,
+        "alternatives": [
+           "Milan",
+           "Barcelona",
+           "Liverpool",
+           "Real Madrid"
+        ]
+      },
+      {
+        "image": "https://statig0.akamaized.net/bancodeimagens/dq/qp/7m/dqqp7mtb2tz0elfil6rrf4uhc.jpg",
+        "title": "Quem foi o campeão mundial de clubes em 1981 ?",
+        "description": "Em dezembro de 1981",
+        "answer": 3,
+        "alternatives": [
+           "Liverpool",
+           "Barcelona",
+           "São Paulo",
+           "Flamengo"
+        ]
+      },
+      {
+        "image": "https://www.escolinhafla.com.br/wp-content/uploads/2019/06/destaque_artilheiros.png",
+        "title": "Quem é o Maior artilheiro da história do Flamengo?",
+        "description": "REI",
+        "answer": 2,
+        "alternatives": [
+           "Adriano Imperador",
+           "Gabigol",
+           "Zico",
+           "Nunes"
+        ]
       }
+
     ],
     "external": [
-      ""
+      "https://aluraquiz-coffee.leonardot07.vercel.app/",
+      "https://aluraquiz.olliveer.vercel.app/",
+      "https://quiz-imersao-react.olucasalves.vercel.app/",
+      "https://alura-quiz-avengers.fernanda-kipper.vercel.app/"
     ],
     "theme": {
       "colors": {
